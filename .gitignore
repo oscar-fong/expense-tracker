@@ -2,3 +2,5 @@
 *.sqlite
 database.*
 *.csv
+
+/vendor/
