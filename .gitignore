@@ -1,6 +1,2 @@
-*.json
-*.sqlite
-database.*
-*.csv
 /data/
 /vendor/
