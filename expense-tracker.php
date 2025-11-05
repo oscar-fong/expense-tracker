@@ -162,6 +162,9 @@ switch ($command) {
       if ($max < $c)
         $max = $c;
     }
+    if ($max < 11) {
+      $max = 11;
+    }
     printf("%-3s %-10s %-{$max}s %s\n", 'ID', 'Date', 'Description', 'Amount');
     foreach ($expenses as $expense) {
       ['id' => $id, 'date' => $date, 'description' => $desc, 'amount' => $amount] = $expense;
